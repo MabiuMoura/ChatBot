@@ -1,0 +1,56 @@
+# Interface e API
+streamlit==1.45.1
+fastapi==0.115.12
+uvicorn==0.34.3
+python-dotenv==1.1.0
+
+# LangChain e LlamaIndex (e componentes associados)
+langchain==0.3.25
+langchain-core==0.3.65
+langchain-community==0.3.25
+langchain-ollama==0.3.3
+langchain-text-splitters==0.3.8
+langsmith==0.3.45
+
+llama-index==0.12.47
+llama-index-core==0.12.47
+llama-index-cli==0.4.3
+llama-index-agent-openai==0.4.11
+llama-index-embeddings-huggingface==0.5.4
+llama-index-embeddings-openai==0.3.1
+llama-index-indices-managed-llama-cloud==0.7.7
+llama-index-instrumentation==0.2.0
+llama-index-llms-openai==0.4.5
+llama-index-multi-modal-llms-openai==0.5.1
+llama-index-program-openai==0.3.2
+llama-index-question-gen-openai==0.3.1
+llama-index-readers-file==0.4.9
+llama-index-readers-llama-parse==0.4.0
+llama-index-workflows==1.0.1
+llama-cloud==0.1.26
+llama-cloud-services==0.6.31
+llama-parse==0.6.31
+
+# Modelos e Embeddings
+sentence-transformers==4.1.0
+transformers==4.52.4
+tokenizers==0.21.1
+tiktoken==0.9.0
+
+# OpenAI e Ollama
+openai==1.86.0
+ollama==0.5.1
+
+# Hugging Face
+huggingface-hub==0.33.0
+safetensors==0.5.3
+
+# Dependências comuns do ecossistema
+pydantic==2.11.5
+pydantic-settings==2.9.1
+requests==2.32.4
+httpx==0.28.1
+aiohttp==3.12.12
+numpy>=1.26,<2.0
+pandas==2.2.3
+tenacity==9.1.2
